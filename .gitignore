@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Model Files
+*.pkl
+*.joblib
+
+# Images
+*.png
+*.jpg
+*.jpeg
+
+# Large Generated CSV Files
+output/news_embeddings.csv
+output/news_with_embeddings.csv
+output/combined_features.csv
+output/featured_news.csv
+
+output/train_original.csv
+output/train_original_new.csv
+output/train_final_smote.csv
+output/train_scaled.csv
+output/train_pca.csv
+output/train_pca_scaled.csv
+output/train_smote_1500.csv
+
+output/test_original.csv
+output/test_original_new.csv
+output/test_final_untouched.csv
+output/test_scaled.csv
+output/test_pca.csv
+output/test_pca_scaled.csv
+output/test_smote_1500.csv
+
+# Ignore trained models folder
+output/tuned_models/

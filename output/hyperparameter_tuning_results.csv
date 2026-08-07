@@ -1,0 +1,6 @@
+Model,CV_Accuracy,Test_Accuracy,Best_Parameters
+XGBoost,0.37333333333333335,0.23111612175873733,"{'subsample': 1.0, 'n_estimators': 500, 'max_depth': 5, 'learning_rate': 0.05, 'colsample_bytree': 1.0}"
+Random Forest,0.38188888888888894,0.20631341600901917,"{'n_estimators': 500, 'min_samples_split': 5, 'max_features': 'log2', 'max_depth': 20}"
+Extra Trees,0.3742222222222222,0.20180383314543404,"{'n_estimators': 500, 'min_samples_split': 5, 'max_features': 'log2', 'max_depth': 20}"
+Logistic Regression,0.17666666666666667,0.20067643742953778,{'C': 0.1}
+SVM RBF,0.21066666666666667,0.17023675310033823,"{'gamma': 'scale', 'C': 10}"

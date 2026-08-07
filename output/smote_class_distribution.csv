@@ -1,0 +1,7 @@
+Category,Before_SMOTE,After_SMOTE
+Business,1328,1500
+Energy,91,1500
+Health,105,1500
+Markets,1078,1500
+Politics,640,1500
+Technology,305,1500
