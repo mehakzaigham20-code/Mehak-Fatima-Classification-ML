@@ -51,6 +51,7 @@ output/test_scaled.csv
 output/test_pca.csv
 output/test_pca_scaled.csv
 output/test_smote_1500.csv
+output/final_10_model_results.csv
 
 # Ignore trained models folder
 output/tuned_models/
